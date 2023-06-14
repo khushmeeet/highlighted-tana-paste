@@ -14,10 +14,7 @@ with open(sys.argv[1]) as f:
         if once == 1:
             print(f'- {title} #book')
             print(f'  - Author:: {author}')
-            print(f'  - ISBN:: {isbn}')
             once = None
         print(f'- {highlight} #highlight')
         print(f'  - Book:: {title} #book')
         print(f'  - Page:: {location}')
-        print(f'  - Tags:: {tags}')
-        print(f'  - Notes:: {note}')
